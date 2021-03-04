@@ -1,0 +1,40 @@
+
+
+@media all and (max-width: 768px) {
+	h2 {
+		font-size: 30px;
+	}
+	.head-text ul li a {
+		font-size: 14px;
+	}
+	.col-1-2 {
+		float: none;
+		width: 100%;
+	}
+	.about-text {
+		margin-bottom: 40px;
+	}
+	.col-1-4 {
+		width: 48%;
+		margin-top: 8px;
+	}
+	
+	.col-2-2 {
+		float: none;
+		width: 100%;
+		margin-top: 15px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	
+	h2 {
+		font-size: 23px;
+	}
+	.head-text ul li a {
+		font-size: 12px;
+	}
+	.col-1-4 {
+		width: 100%;
+	}
+}
