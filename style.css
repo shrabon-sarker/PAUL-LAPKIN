@@ -1,4 +1,4 @@
-  /*===================================
+/*===================================
 				About
    =================================== */
 
@@ -30,151 +30,137 @@
 
 /*Table Of Contents ends */
 
-
 /*Global Styling*/
 
 /*=====================================
 				Typography
 =========================================*/
 
-
 body {
-	font-family: 'Roboto', sans-serif;
-	margin: 0;
-	line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  line-height: 1.4em;
 }
 
 h2 {
-	font-size: 45px;
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 10px;
-	border-top: 2px solid #9eb4be;
-	border-bottom: 2px solid #9eb4be;
-	display: inline-block;
-	padding: 20px 0;
+  font-size: 45px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  border-top: 2px solid #9eb4be;
+  border-bottom: 2px solid #9eb4be;
+  display: inline-block;
+  padding: 20px 0;
 }
 
-
 img {
-	width: 100%;
+  width: 100%;
 }
 
 h5 {
-	font-size: 13px;
-	color: #4c4c4c;
+  font-size: 13px;
+  color: #4c4c4c;
 }
 
 h3 {
-	font-size: 34px;
-	font-weight: 500;
-	text-transform: capitalize;
-	font-family: ralew;
-	font-family: 'Raleway', sans-serif;
-	margin-bottom: 15px;
-	
+  font-size: 34px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: ralew;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
 }
 
 h4 {
-	font-size: 23px;
-	font-weight: 500;
-	text-transform: capitalize;
-	font-family: ralew;
-	font-family: 'Raleway', sans-serif;
-	margin-bottom: 15px;
-	color: #ffffff;
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: ralew;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+  color: #ffffff;
 }
-
 
 p {
-	font-size: 12px;
-	color: #585858;
+  font-size: 12px;
+  color: #585858;
 }
-
-
 
 /*=====================================
 				header area starts
 =========================================*/
 
-
 .header-area {
-	background: url('images/background.jpg') no-repeat 0 0 / 100% 100%;
-	color: #ffffff;
-	
-	padding: 60px 0 260px;
-	
+  background: url("images/background.jpg") no-repeat 0 0 / 100% 100%;
+  color: #ffffff;
+
+  padding: 60px 0 260px;
 }
 
 .container {
-	width: 85%;
-	margin: auto;
+  width: 85%;
+  margin: auto;
 }
 .head-menu {
-	overflow: hidden;
+  overflow: hidden;
 }
 .logo {
-	width: 30%;
-	float: left;
-	overflow: hidden;
+  width: 30%;
+  float: left;
+  overflow: hidden;
 }
 
 .logo img {
-	width: 30px;
-	height: auto;
+  width: 30px;
+  height: auto;
 }
 
 .menu {
-	width: 70%;
-	overflow: hidden;
+  width: 70%;
+  overflow: hidden;
 }
 
 .menu a {
-	float: right;
-	text-decoration: none;
-	color: #ffffff;
-	border: 1px solid #ffffff;
-	padding: 8px;
-	font-size: 25px;
-	font-weight: 400;
-	transition: .5s;
+  float: right;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: 400;
+  transition: 0.5s;
 }
 
 .menu a:hover {
-	color: #ff2b4a;
-	border: 1px solid #ff2b4a;
+  color: #ff2b4a;
+  border: 1px solid #ff2b4a;
 }
 
 .head-text {
-	text-align: center;
-	margin-top: 180px;
+  text-align: center;
+  margin-top: 180px;
 }
 .head-text h2 {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .head-text ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-
 .head-text ul li {
-	display: inline;
-	
+  display: inline;
 }
 
 .head-text ul li a {
-	color: #9eb4be;
-	font-size: 17px;
-	padding-right: 8px;
-	text-decoration: none;
-	display: inline-block;
+  color: #9eb4be;
+  font-size: 17px;
+  padding-right: 8px;
+  text-decoration: none;
+  display: inline-block;
 }
-
-
-
 
 /*=====================================
 				header area ends
@@ -185,46 +171,42 @@ p {
 =========================================*/
 
 .about-area {
-	overflow: hidden;
-	padding: 80px 0 0;
+  overflow: hidden;
+  padding: 80px 0 0;
 }
 
 .about-image {
-	text-align: center;
+  text-align: center;
 }
 .about-image img {
-	width: 280px;
-	height: 435px;
-	
-	
+  width: 280px;
+  height: 435px;
 }
 .col-1-2 {
-	float: left;
-	width: 50%;
-	overflow: hidden;
+  float: left;
+  width: 50%;
+  overflow: hidden;
 }
 .about-text {
-	margin-top: 25px;
+  margin-top: 25px;
 }
 
 .btn {
-	text-decoration: none;
-	background: #ff2b4a;
-	padding: 9px 47px;
-	display: inline-block;
-	font-size: 14px;
-	color: #fff;
-	border: 1px solid transparent;
-	transition: .5s;
-	margin-top: 40px;
+  text-decoration: none;
+  background: #ff2b4a;
+  padding: 9px 47px;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: 0.5s;
+  margin-top: 40px;
 }
 .btn:hover {
-	background: #ffffff;
-	border: 1px solid #ff2b4a;
-	color: #ff2b4a;
+  background: #ffffff;
+  border: 1px solid #ff2b4a;
+  color: #ff2b4a;
 }
-
-
 
 /*=====================================
 				about area ends
@@ -234,71 +216,57 @@ p {
 				work process area starts
 =========================================*/
 
-
-
-
-
 .work-process-area {
-
-	background: #f6f6f6;
-	text-align: center;
-	padding: 60px 0 40px;
-	
-
+  background: #f6f6f6;
+  text-align: center;
+  padding: 60px 0 40px;
 }
 
-
 .work-section {
-	overflow: hidden;
-	margin: 40px 0;
+  overflow: hidden;
+  margin: 40px 0;
 }
 
 .col-1-4 {
-	float: left;
-	width: 24%;
-	overflow: hidden;
-	margin-right: 1.33%;
-	z-index: 999;
+  float: left;
+  width: 24%;
+  overflow: hidden;
+  margin-right: 1.33%;
+  z-index: 999;
 }
 .col-1-4:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
-.work-section .get:nth-child(1n){
-	background: #10c6fc;
-	padding: 67px 0;
-	transition: 1s;
-
+.work-section .get:nth-child(1n) {
+  background: #10c6fc;
+  padding: 67px 0;
+  transition: 1s;
 }
-.work-section .get:nth-child(2n){
-	
-	background: #835aeb;
-	padding: 67px 0;
-
+.work-section .get:nth-child(2n) {
+  background: #835aeb;
+  padding: 67px 0;
 }
-.work-section .get:nth-child(3n){
-	background: #002453;
-	padding: 67px 0;
-
+.work-section .get:nth-child(3n) {
+  background: #002453;
+  padding: 67px 0;
 }
-.work-section .get:nth-child(4n){
-	margin-right: 0;
-	background: #ff2b4a;
-	padding: 67px 0;
-
+.work-section .get:nth-child(4n) {
+  margin-right: 0;
+  background: #ff2b4a;
+  padding: 67px 0;
 }
 .get:hover {
-	transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .get a {
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 16px;
-	display: block;
-	text-transform: uppercase;
-	padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  padding: 10px;
 }
-
 
 /*=====================================
 				work process area ends
@@ -308,62 +276,57 @@ p {
 			workexperiance area starts
 =========================================*/
 
-
 .work-experiance-area {
-	background: url(images/expart.jpg) no-repeat 0 0 / 100% 100%;
-	overflow: hidden;
-	color: #ffffff;
-	padding: 134px 0;
-	background-attachment: fixed;
+  background: url(images/expart.jpg) no-repeat 0 0 / 100% 100%;
+  overflow: hidden;
+  color: #ffffff;
+  padding: 134px 0;
+  background-attachment: fixed;
 }
 .work-exp1 {
-	background: linear-gradient( to right, #68637b, #4e637c);
-	transition: 0.5s;
-	
-	
+  background: linear-gradient(to right, #68637b, #4e637c);
+  transition: 0.5s;
 }
 .work-exp1:hover {
-	box-shadow: 5px 5px 10px #ccc;
+  box-shadow: 5px 5px 10px #ccc;
 }
 .work-exp1 span {
-	font-size: 15px;
-	color: #b2b2be;
+  font-size: 15px;
+  color: #b2b2be;
 }
 
 .work-exp1 h5 {
-	font-size: 15px;
-	color: #d1d1d8;
-	margin-bottom: 15px;
+  font-size: 15px;
+  color: #d1d1d8;
+  margin-bottom: 15px;
 }
 .work-exp1 p {
-	color: #b2b2be;
+  color: #b2b2be;
 }
 .col-2-2 {
-	float: left;
-	overflow: hidden;
-	width: 49%;
-	margin-right: 2%;
+  float: left;
+  overflow: hidden;
+  width: 49%;
+  margin-right: 2%;
 }
 
 .col-2-2:last-child {
-	margin-right: 0;
+  margin-right: 0;
 }
 
 .work-text1 {
-	border-bottom: 1px solid #ccc;
-	padding: 10px ;
-	display: inline-block;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: inline-block;
 }
 
 .work-text1,
 .work-text2 {
-	margin: 20px 46px 10px;
+  margin: 20px 46px 10px;
 }
 .work-text2 {
-	margin-bottom: 55px; 
+  margin-bottom: 55px;
 }
-
-
 
 /*=====================================
 			workexperiance area ends
@@ -373,26 +336,23 @@ p {
 =========================================*/
 
 .latest-work-area {
-	text-align: center;
-	padding: 60px 0 80px;
-	overflow: hidden;
+  text-align: center;
+  padding: 60px 0 80px;
+  overflow: hidden;
 }
 
 .call-img {
-	width: 100%;
-	transition: 1s;
+  width: 100%;
+  transition: 1s;
 }
 .call-img:hover {
-	transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
 }
 .work-image {
-	margin-top: 35px;
-	margin-bottom: 12px;
-	overflow: hidden;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  overflow: hidden;
 }
-
-
-
 
 /*=====================================
 			latest work area ends
@@ -403,36 +363,31 @@ p {
 =========================================*/
 
 .comment-area {
-	overflow: hidden;
-	background: #64cbc0;
-	padding: 100px 0;
+  overflow: hidden;
+  background: #64cbc0;
+  padding: 100px 0;
 }
 .comment-text {
-	
 }
-
 
 .com {
-	width: 40px;
-	
+  width: 40px;
 }
 
-
 .com2 {
-	width: 110px;
-	margin-top: 20px;
-	
+  width: 110px;
+  margin-top: 20px;
 }
 
 .com-text {
-	padding-right: 55px;
+  padding-right: 55px;
 }
 .com-text h5 {
-	margin: 0;
+  margin: 0;
 }
 
 .comment-images img {
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 /*=====================================
@@ -444,53 +399,51 @@ p {
 =========================================*/
 
 .contact-area {
-	background: url('images/bg.jpg') no-repeat center / 100% 100%;
-	overflow: hidden;
-	padding: 100px 0;
+  background: url("images/bg.jpg") no-repeat center / 100% 100%;
+  overflow: hidden;
+  padding: 100px 0;
 }
 
-
 .contact-form {
-	background: linear-gradient(to right, #68647c, #4d637c);
-	overflow: hidden;
+  background: linear-gradient(to right, #68647c, #4d637c);
+  overflow: hidden;
 }
 
 .contact-form form {
-	padding: 30px;
+  padding: 30px;
 }
 
 .contact-form form h4 {
-	margin-bottom: 40px;
-	text-transform: uppercase;
+  margin-bottom: 40px;
+  text-transform: uppercase;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-	display: block;
-	border: 1px solid #c3c1cb;
-	font-size: 12px;
-	color: #b3b2be;
-	padding: 10px 15px;
-	width: 100%;
-	box-sizing: border-box;
-	margin-bottom: 15px;
-	background: transparent;
-	
+  display: block;
+  border: 1px solid #c3c1cb;
+  font-size: 12px;
+  color: #b3b2be;
+  padding: 10px 15px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  background: transparent;
 }
 
 .contact-address p {
-	color: #cbcfd5;
+  color: #cbcfd5;
 }
 .contact-address h4 {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 .address,
 .phone,
 .web {
-	background: linear-gradient(to right, #4d637c, #68647c);
-	overflow: hidden;
-	margin-bottom: 10px;
-	padding: 26px;
+  background: linear-gradient(to right, #4d637c, #68647c);
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding: 26px;
 }
 /*=====================================
 			contact work area ends
@@ -500,36 +453,33 @@ p {
 =========================================*/
 
 .footer-area {
-	background: #000000;
-	overflow: hidden;
-	padding: 30px 0;
-	text-align: center;
+  background: #000000;
+  overflow: hidden;
+  padding: 30px 0;
+  text-align: center;
 }
 
-
 .socail {
-	
 }
 
 .socail ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .socail ul li {
-	display: inline;
-	
+  display: inline;
 }
 
 .socail ul li a {
-	color: #aaaaaa;
-	text-decoration: none;
-	display: inline-block;
-	padding: 10px;
-	font-size: 17px;
-	transition: .4s;
+  color: #aaaaaa;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 17px;
+  transition: 0.4s;
 }
 .socail ul li a:hover {
-	color: #ff2b4a;
+  color: #ff2b4a;
 }
